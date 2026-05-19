@@ -1228,9 +1228,11 @@ ol.text-subsection-content.media-group-list {
     width: 196px; /* Figma: 각 열 너비 196px */
     height: auto;
     text-align: left;
-    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal; /* 줄바꿈 허용 */
+    overflow: visible;
+    text-overflow: clip;
+    padding-left: 22px; /* "a. " 너비만큼 들여쓰기 */
+    text-indent: -22px; /* 첫 줄은 "a. "로 시작하도록 내어쓰기 */
 }
 
 /* ============================================
