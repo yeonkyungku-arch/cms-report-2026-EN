@@ -3891,15 +3891,15 @@ canvas[id="chart-canvas"] {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 19px;
+    height: auto;
     border-left: 4px solid #616161;
     border-right: none;
     border-bottom: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     padding-left: 12px;
+    gap: 8px;
 }
 
 /* 미디어그룹 광고 개요 제목 */
