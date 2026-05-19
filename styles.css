@@ -139,6 +139,11 @@ section.page::after {
     color: #58C65D;
 }
 
+/* 1장, 2장 간지: Dooh Service 문구 제거 */
+section.page.page-divider::after {
+    content: '';
+}
+
 /* 미디어그룹 정보 페이지: 배경 이미지 제거, 흰색 배경 */
 section.page.page-media-info {
     background-image: none;
