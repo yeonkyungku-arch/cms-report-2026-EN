@@ -1953,10 +1953,11 @@ ol.text-subsection-content.media-group-list {
 
 /* 미디어그룹별 광고 성과 테이블의 "다음 페이지에 이어서" 문구 */
 .text-continued-performance-table {
-    position: absolute;
-    left: auto;
-    right: 54px; /* 우측 정렬 */
-    bottom: 30px; /* 페이지 넘버보다 위에 배치 */
+    position: absolute !important;
+    left: auto !important;
+    right: 54px !important; /* 우측 정렬 */
+    bottom: 30px !important; /* 페이지 넘버보다 위에 배치 */
+    top: auto !important;
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400; /* Regular */
@@ -2009,6 +2010,8 @@ ol.text-subsection-content.media-group-list {
 .performance-table-section .text-performance-table-note {
     left: 0 !important; /* performance-table-section 기준이므로 0 */
     position: absolute !important;
+    top: auto !important;
+    bottom: 10px !important; /* 페이지 하단에서 10px 위에 배치 */
 }
 
 /* pitch 안내 문구: 주석 텍스트 */
