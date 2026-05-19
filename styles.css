@@ -1269,7 +1269,9 @@ ol.text-subsection-content.media-group-list {
 }
 
 .text-platform-media {
-    margin-top: auto;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
     width: fit-content;
     height: 19px;
     font-family: 'Pretendard';
