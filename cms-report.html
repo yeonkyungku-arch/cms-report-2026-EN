@@ -131,7 +131,7 @@
                 <!-- 정보 박스 헤더 -->
                 <div class="info-box-header">
                     <img src="icon1.svg" alt="아이콘" class="frame-icon">
-                    <span class="text-info-title">Analysis Guide</span>
+                    <span class="text-info-title">Effectiveness Analysis Guide</span>
                 </div>
                 <!-- 내용 텍스트 -->
                 <p class="text-info-content">The analysis is based on M&amp;M Networks' algorithm-driven AI performance indicators, utilizing public data, telecommunications data, mobile OD, and proprietary data. This analysis adheres to the Outdoor Advertising Standardization Alliance guidelines.
@@ -176,7 +176,7 @@
                 <!-- sub title: 타이틀 영역 -->
                 <div class="frame-sub-title">
                     <h1 class="text-media-title">Media Group Product Information</h1>
-                    <p class="text-media-subtitle">Information on media group products and advertising period</p>
+                    <p class="text-media-subtitle">Media Group and Campaign Period Overview</p>
                 </div>
             </div>
 
@@ -201,7 +201,7 @@
                                 <span class="field-text">{{광고주명}}</span>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">Ad Contract Name</span>
+                                <span class="field-text">Campaign Name</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{스케줄명}}</span>
@@ -346,7 +346,7 @@
                 <!-- sub title: 타이틀 영역 -->
                 <div class="frame-sub-title">
                     <h1 class="text-media-title">Media Group Product Information</h1>
-                    <p class="text-media-subtitle">Information on media group products and advertising period</p>
+                    <p class="text-media-subtitle">Media Group and Campaign Period Overview</p>
                 </div>
             </div>
 
@@ -371,7 +371,7 @@
                                 <span class="field-text">{{광고주명}}</span>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">Ad Contract Name</span>
+                                <span class="field-text">Campaign Name</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{스케줄명}}</span>
@@ -489,15 +489,15 @@
                         <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                         <!-- Frame 1686563118: 인사이트 텍스트 컨테이너 -->
                         <div class="frame-insight-text-container">
-                                <span>Exposure rate is </span>
+                                <span>The exposure rate reached </span>
                                 <!-- Frame 1686563120: 비율 텍스트 -->
                                 <span class="frame-insight-ratio-text">
                                     <span class="insight-value">{{노출비율}}%</span>
-                                    <span>, showing </span>
+                                    <span>, indicating </span>
                                 </span>
                                 <!-- Frame 1686563119: 효과 수준 텍스트 -->
                                 <span class="frame-insight-effect-level">
-                                    <span class="insight-highlight">{{광고효과수준}} level effectiveness</span>
+                                    <span class="insight-highlight">{{광고효과수준}}-level exposure effectiveness</span>
                                     <span>.</span>
                                 </span>
                         </div>
@@ -1098,7 +1098,7 @@
     <section class="page page-divider page-divider-2">
         <div class="container container-divider">
             <div class="divider-content">
-                <h1 class="divider-title divider-title-section2">Effectiveness Analysis by Media Group</h1>
+                <h1 class="divider-title divider-title-section2">Campaign Effectiveness Analysis<br>by Media Group</h1>
                 <div class="divider-media-group-container">
                     <!-- Frame 1686563104: 분석 미디어그룹 목록 컨테이너 -->
                     <div class="divider-media-group-content">
@@ -1167,7 +1167,7 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">Campaign: {{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
+                        <span class="text-목차-media">Campaign Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
@@ -1242,7 +1242,7 @@
                         <!-- 미디어 대수 행 -->
                         <div class="frame-media-info-row-2">
                             <div class="field field-label field-media-group field-tall">
-                                <span class="field-text">No. of Displays</span>
+                                <span class="field-text">Number of Media</span>
                             </div>
                             <div class="field field-value field-media-group field-tall">
                                 <!-- field 내부 그룹 -->
@@ -1355,7 +1355,7 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">Campaign: {{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
+                        <span class="text-목차-media">Campaign Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
@@ -1495,7 +1495,7 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">Campaign: {{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
+                        <span class="text-목차-media">Campaign Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
@@ -4105,7 +4105,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = 'Daily Average';
+                legendTextAvg.textContent = 'Overall Average';
                 legendItemAvg.appendChild(legendTextAvg);
                 visualizationWeeklyLegendEl.appendChild(legendItemAvg);
             }
@@ -4132,7 +4132,7 @@
             });
             
             datasets.unshift({
-                label: 'Daily Average',
+                label: 'Overall Average',
                 data: 요일별일평균,
                 type: 'line',
                 borderColor: '#008aff',
@@ -4371,7 +4371,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = 'Hourly Average';
+                legendTextAvg.textContent = 'Overall Average';
                 legendItemAvg.appendChild(legendTextAvg);
                 visualizationHourlyLegendEl.appendChild(legendItemAvg);
             }
@@ -4405,7 +4405,7 @@
 
             // 시간대 평균선 데이터셋 추가 (보조선)
             datasets.push({
-                label: 'Hourly Average',
+                label: 'Overall Average',
                 data: Array(시간대별노출인구데이터.시간대리스트.length).fill(시간대별노출인구데이터.시간대평균),
                 type: 'line',
                 borderColor: '#008aff',
