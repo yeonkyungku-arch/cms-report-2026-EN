@@ -693,7 +693,7 @@ section.page:last-child {
     position: absolute;
     left: 16px;
     top: 0px;
-    width: 47px;
+    width: auto;
     height: 35px;
     font-family: 'Pretendard';
     font-style: normal;
