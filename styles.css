@@ -2443,7 +2443,7 @@ ol.text-subsection-content.media-group-list {
 .performance-chart-section .frame-content-title {
     position: absolute;
     left: 54px; /* 페이지 컨텐츠 영역 좌측 (좌측 여백 54px) */
-    top: 198px; /* frame-head top (54px) + frame-sub-title top (46px) + text-media-title line-height (52px) + 간격 (46px) = 198px */
+    top: 186px; /* 198px - 12px = 186px */
     width: 1016px;
     height: auto;
     box-sizing: border-box;
@@ -2462,7 +2462,7 @@ ol.text-subsection-content.media-group-list {
 .performance-chart-section .frame-chart-area {
     position: absolute;
     left: 54px;
-    top: calc(198px + 26px + 12px); /* frame-content-title top + height + 간격 12px */
+    top: calc(186px + 26px + 12px); /* frame-content-title top(186px) + height(26px) + 간격(12px) */
     width: 1016px;
     height: auto;
     margin-top: 12px; /* frame-content-title과의 간격 12px */
@@ -2858,7 +2858,7 @@ canvas[id="chart-canvas"] {
 .performance-table-wrapper .frame-content-title {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -12px; /* 12px 위로 이동 */
     width: 1016px;
     height: auto;
     border-left: 4px solid #616161;
@@ -3114,7 +3114,7 @@ canvas[id="chart-canvas"] {
 .frame-chart-age-gender .frame-content-title {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -12px; /* 12px 위로 이동 */
     width: 1016px;
     height: auto;
     border-left: 4px solid #616161;
@@ -3377,7 +3377,7 @@ canvas[id="chart-canvas"] {
 .frame-chart-daily .frame-content-title {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -12px; /* 12px 위로 이동 */
     width: 1016px;
     height: auto;
     border-left: 4px solid #616161;
@@ -3467,7 +3467,7 @@ canvas[id="chart-canvas"] {
 .frame-chart-weekly .frame-content-title {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -12px; /* 12px 위로 이동 */
     width: 1016px;
     height: auto;
     border-left: 4px solid #616161;
@@ -3568,7 +3568,7 @@ canvas[id="chart-canvas"] {
 .frame-chart-hourly .frame-content-title {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -12px; /* 12px 위로 이동 */
     width: 1016px;
     height: auto;
     border-left: 4px solid #616161;
