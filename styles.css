@@ -906,31 +906,27 @@ ol.text-subsection-content.media-group-list {
 }
 
 .info-box-header {
-    position: absolute;
-    left: 14px;
-    top: 14px;
+    position: relative;
     width: 115px;
     height: 19px;
     display: flex;
     align-items: center;
     gap: 7px;
+    margin-bottom: 12px;
 }
 
 .frame-icon {
-    position: absolute;
-    top: 0px;
-    left: 10px;
+    position: relative;
     width: 19px;
     height: 19px;
     object-fit: contain;
     display: block;
+    flex-shrink: 0;
 }
 
 .text-info-title {
-    position: absolute;
-    top: 0px;
-    width: 500px;
-    left: 40px;
+    position: relative;
+    width: auto;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: var(--font-weight-medium);
@@ -941,11 +937,9 @@ ol.text-subsection-content.media-group-list {
 }
 
 .text-info-content {
-    position: absolute;
-    top: 43px;
-    left: 20px;
+    position: relative;
     width: 916px;
-    height: 46px;
+    height: auto;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: var(--font-weight-regular);
@@ -954,6 +948,7 @@ ol.text-subsection-content.media-group-list {
     letter-spacing: -0.25px; /* -1px * 1.33333 */
     color: var(--color-info-box-text);
     margin: 0;
+    margin-top: 12px;
 }
 
 /* 페이지 번호: 기본 위치 설정 */
