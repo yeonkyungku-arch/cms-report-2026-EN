@@ -794,7 +794,7 @@ section.page:last-child {
     color: var(--color-toc-text-light);
     margin: 0 !important;
     margin-top: 0 !important;
-    margin-bottom: 0 !important; /* 미디어그룹 리스트와 붙임 */
+    margin-bottom: 12px !important; /* 미디어그룹 리스트와의 간격 */
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding: 0 !important; /* 모든 패딩 제거 */
