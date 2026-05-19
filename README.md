@@ -84,3 +84,4 @@
 - `cms-report.html`: 메인 HTML 파일
 - `styles.css`: 스타일시트 파일
 - `TEMPLATE_VARIABLES.md`: 템플릿 변수 문서
+# cms-report-2026
