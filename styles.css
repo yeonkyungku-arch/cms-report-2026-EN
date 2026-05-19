@@ -126,7 +126,7 @@ section.page {
 section.page::after {
     content: 'DOOH Integrated System | Dooh Service';
     position: absolute;
-    left: 16px;
+    left: 54px;
     bottom: 16px;
     width: fit-content;
     height: 19px;
