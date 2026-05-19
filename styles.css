@@ -1951,6 +1951,16 @@ ol.text-subsection-content.media-group-list {
     display: block !important; /* 항상 표시 */
 }
 
+/* 주석 + 다음 페이지 텍스트 좌우 정렬 컨테이너 */
+.performance-table-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
 /* 미디어그룹별 광고 성과 테이블의 "다음 페이지에 이어서" 문구 */
 .text-continued-performance-table {
     position: relative !important;
@@ -2006,14 +2016,14 @@ ol.text-subsection-content.media-group-list {
     position: relative !important; /* 주석의 기준점으로 사용 */
 }
 
-/* 주석이 performance-table-section 내부에 있으므로 left를 0으로 조정 */
+/* 주석이 performance-table-footer 내부에 있으므로 별도 마진 불필요 */
 .performance-table-section .text-performance-table-note {
     left: auto !important;
     position: relative !important;
     top: auto !important;
-    bottom: auto !important; /* 절대 배치에서 상대 배치로 변경 */
-    width: auto !important; /* 넓이 자동 조정 */
-    margin-top: 16px !important; /* 테이블 하단 아래 간격 16px */
+    bottom: auto !important;
+    width: auto !important;
+    margin: 0 !important; /* 부모 컨테이너(performance-table-footer)에서 간격 처리 */
 }
 
 /* pitch 안내 문구: 주석 텍스트 */
