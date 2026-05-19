@@ -1096,7 +1096,7 @@ ol.text-subsection-content.media-group-list {
     position: absolute;
     left: 54px; /* Figma: x: 4949 - 4909 (Frame 시작) = 40px, 하지만 container padding 54px */
     top: 54px; /* Figma: y: 11675 - 11635 (Frame 시작) = 40px, 하지만 container padding 54px */
-    width: auto; /* Content-based width */
+    width: fit-content; /* Fit content width */
     height: auto; /* Auto height for content */
     font-family: 'Pretendard';
     font-style: normal;
@@ -4449,7 +4449,7 @@ canvas[id="chart-canvas"] {
     align-items: center;
     gap: 8px;
     height: 9px;
-    margin-left: auto;
+    margin-left: 0;
 }
 
 /* 광고 송출 분석 */
