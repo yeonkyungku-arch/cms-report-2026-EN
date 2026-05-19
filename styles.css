@@ -1807,7 +1807,7 @@ ol.text-subsection-content.media-group-list {
     font-style: normal;
     font-weight: 500; /* Medium */
     font-size: 16px;
-    line-height: 20px; /* font-size * 1.2 */
+    line-height: 16px; /* Reduced line-height */
     letter-spacing: -0.25px;
     color: #616161;
     word-break: break-word;
