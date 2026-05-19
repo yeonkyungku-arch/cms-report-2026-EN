@@ -2427,6 +2427,14 @@ ol.text-subsection-content.media-group-list {
     height: 58px; /* Frame 21의 Frame 23은 58px */
 }
 
+.frame-audience-summary .frame-insight-container .frame-insight-large {
+    margin-top: 16px !important; /* 16px 아래로 이동 */
+}
+
+.frame-max-exposure-group .frame-insight {
+    margin-top: 12px !important; /* 12px 아래로 이동 */
+}
+
 /* ============================================
    주요 광고 성과 2 페이지 스타일
    ============================================ */
