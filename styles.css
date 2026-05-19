@@ -4449,6 +4449,7 @@ canvas[id="chart-canvas"] {
     align-items: center;
     gap: 8px;
     height: 9px;
+    margin-top: 4px;
     margin-left: 0;
 }
 
