@@ -4602,19 +4602,13 @@ canvas[id="chart-canvas"] {
 
 .frame-visualization-chart-title {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 8px;
+    gap: 12px;
     height: auto;
 }
 
-.frame-visualization-chart-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    height: auto;
-}
+/* Removed - structure changed to use frame-visualization-info instead */
 
 .frame-visualization-icon {
     width: 27px;
@@ -4623,6 +4617,14 @@ canvas[id="chart-canvas"] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.frame-visualization-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1;
 }
 
 .visualization-icon {
