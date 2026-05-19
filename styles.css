@@ -2081,7 +2081,7 @@ ol.text-subsection-content.media-group-list {
     top: auto; /* JavaScript로 동적으로 계산 - Frame 21 하단 + 40px 간격 */
     width: 1016px;
     height: auto; /* hug */
-    min-height: 65px;
+    min-height: 53px;
     margin-bottom: -20px; /* 하단 여백 감소 */
 }
 
