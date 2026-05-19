@@ -4199,6 +4199,17 @@ canvas[id="chart-canvas"] {
     margin: 0px; /* 필드 간 간격 0px */
 }
 
+/* Exposure Rate 행 높이 60px (3줄 텍스트 수용) */
+.frame-media-info-row-2 .field-label.field-media-group {
+    height: 60px !important;
+    min-height: 60px !important;
+}
+
+.frame-media-info-row-2 .field-value.field-media-group {
+    height: 60px !important;
+    min-height: 60px !important;
+}
+
 /* Field value: 미디어그룹 값 - 3페이지 테이블 스타일과 동일 */
 .field-value.field-media-group {
     flex: 1;
