@@ -145,6 +145,12 @@ section.page.page-cover::after {
     display: none !important;
 }
 
+/* 목차 페이지: Dooh Service 문구 제거 */
+section.page:nth-of-type(2)::after {
+    content: '' !important;
+    display: none !important;
+}
+
 /* 1장, 2장 간지: Dooh Service 문구 제거 */
 section.page.page-divider::after {
     content: '' !important;
