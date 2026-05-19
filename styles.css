@@ -1269,6 +1269,7 @@ ol.text-subsection-content.media-group-list {
 }
 
 .text-platform-media {
+    margin-top: auto;
     width: fit-content;
     height: 19px;
     font-family: 'Pretendard';
@@ -1278,10 +1279,6 @@ ol.text-subsection-content.media-group-list {
     line-height: 19px !important; /* 20px */
     letter-spacing: -0.25px !important; /* -1px */
     color: #58C65D;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
 
 /* sub title: 타이틀 영역 */
