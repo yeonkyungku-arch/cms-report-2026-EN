@@ -1953,10 +1953,10 @@ ol.text-subsection-content.media-group-list {
 
 /* 미디어그룹별 광고 성과 테이블의 "다음 페이지에 이어서" 문구 */
 .text-continued-performance-table {
-    position: absolute !important;
+    position: relative !important;
     left: auto !important;
-    right: 54px !important; /* 우측 정렬 */
-    bottom: 30px !important; /* 페이지 넘버보다 위에 배치 */
+    right: auto !important;
+    bottom: auto !important; /* 절대 배치에서 상대 배치로 변경 */
     top: auto !important;
     font-family: 'Pretendard';
     font-style: normal;
@@ -2008,11 +2008,12 @@ ol.text-subsection-content.media-group-list {
 
 /* 주석이 performance-table-section 내부에 있으므로 left를 0으로 조정 */
 .performance-table-section .text-performance-table-note {
-    left: 0 !important; /* performance-table-section 기준이므로 0 */
-    position: absolute !important;
+    left: auto !important;
+    position: relative !important;
     top: auto !important;
-    bottom: 10px !important; /* 페이지 하단에서 10px 위에 배치 */
+    bottom: auto !important; /* 절대 배치에서 상대 배치로 변경 */
     width: auto !important; /* 넓이 자동 조정 */
+    margin-top: 16px !important; /* 테이블 하단 아래 간격 16px */
 }
 
 /* pitch 안내 문구: 주석 텍스트 */
@@ -2433,9 +2434,10 @@ ol.text-subsection-content.media-group-list {
 .performance-chart-section .frame-chart-area {
     position: absolute;
     left: 54px;
-    top: calc(198px + 26px + 12px); /* frame-content-title top + height + 간격 */
+    top: calc(198px + 26px + 12px); /* frame-content-title top + height + 간격 12px */
     width: 1016px;
     height: auto;
+    margin-top: 12px; /* frame-content-title과의 간격 12px */
     margin-bottom: 12px; /* frame-insight-notice와의 간격 12px */
 }
 
