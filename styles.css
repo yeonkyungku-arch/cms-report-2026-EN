@@ -1177,7 +1177,7 @@ ol.text-subsection-content.media-group-list {
 
 /* 간지 2 페이지: divider-media-group-container 위치 조정 */
 .page-divider-2 .divider-media-group-container {
-    top: 147px; /* 제목(54px + 48px = 102px) + 간격(93px - 48px = 45px) = 147px */
+    top: 160px; /* 제목(54px + 48px = 102px) + 간격(93px - 48px = 45px) + 추가 여백(13px) = 160px */
     justify-content: flex-start; /* 상단 정렬 */
     align-items: flex-start; /* 좌측 정렬 */
 }
