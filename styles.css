@@ -2131,7 +2131,7 @@ ol.text-subsection-content.media-group-list {
 .frame-table-performance-container {
     position: absolute;
     left: 0px;
-    top: 36px; /* content title (26px) + margin-bottom (11px) = 36px */
+    top: 60px; /* content title (26px) + margin-bottom (40px) - adjusted for spacing */
     width: 1016px;
 }
 
