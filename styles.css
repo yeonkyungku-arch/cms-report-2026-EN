@@ -950,6 +950,9 @@ ol.text-subsection-content.media-group-list {
     line-height: 20px;
     letter-spacing: -0.25px; /* -1px * 1.33333 */
     color: var(--color-info-box-title);
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 .text-info-content {
@@ -1093,8 +1096,8 @@ ol.text-subsection-content.media-group-list {
     position: absolute;
     left: 54px; /* Figma: x: 4949 - 4909 (Frame 시작) = 40px, 하지만 container padding 54px */
     top: 54px; /* Figma: y: 11675 - 11635 (Frame 시작) = 40px, 하지만 container padding 54px */
-    width: 423px; /* Figma: width: 423px */
-    height: 48px; /* Figma: height: 48px */
+    width: 550px; /* Adjusted for single line layout */
+    height: auto; /* Auto height for content */
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700; /* Bold */
