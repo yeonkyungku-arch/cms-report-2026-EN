@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1122.52, initial-scale=1.0, user-scalable=no">
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="header-frame">
                 <div class="title-section">
-                    <h1 class="main-title">Dooh Service 효과 분석 보고서</h1>
+                    <h1 class="main-title">Dooh Service Campaign Effectiveness Report</h1>
                     <h2 class="contract-name">{{스케줄명}}</h2>
                 </div>
                 <div class="icon-group">
@@ -31,24 +31,24 @@
             <div class="footer-frame">
                 <div class="info-section">
                     <div class="period-row">
-                        <span class="label">광고기간 : </span>
+                        <span class="label">Campaign Period : </span>
                         <span class="date-range">
                             <span class="date">{{광고시작일}}</span>
                             <span class="separator">~</span>
                             <span class="date">{{광고종료일}}</span>
                         </span>
                         <span class="total-days">
-                            <span class="parenthesis">(총</span>
+                            <span class="parenthesis">(</span>
                             <span class="days-number">{{운영일수}}</span>
-                            <span class="days-unit">일)</span>
+                            <span class="days-unit"> days)</span>
                         </span>
                     </div>
                     <div class="advertiser-row">
-                        <span class="label">광고주명 :</span>
+                        <span class="label">Advertiser :</span>
                         <span class="advertiser-name">{{광고주명}}</span>
                     </div>
                 </div>
-                <div class="issue-date">{{보고서발행일}} 발행</div>
+                <div class="issue-date">Published: {{보고서발행일}}</div>
             </div>
         </div>
     </section>
@@ -62,10 +62,10 @@
                 <div class="breadcrumb-group">
                     <span class="text-스케줄명">{{스케줄명}}</span>
                     <span class="text-separator">|</span>
-                    <span class="text-목차">목차</span>
+                    <span class="text-목차">Table of Contents</span>
                 </div>
-                <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                <div class="text-platform">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                <div class="text-platform">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
             </div>
 
             <!-- 내용 영역: 목차 카드 -->
@@ -74,14 +74,14 @@
                 <div class="frame-목차영역">
                     <!-- 타이틀-목차: 목차 제목 프레임 -->
                     <div class="frame-타이틀목차">
-                        <h2 class="text-toc-title">목차</h2>
+                        <h2 class="text-toc-title">Table of Contents</h2>
                     </div>
                     <!-- 목차 리스트: 섹션 컨테이너 -->
                     <div class="frame-목차리스트">
-                        <h3 class="text-section-title">1. 미디어그룹 및 주요 광고 성과</h3>
+                        <h3 class="text-section-title">1. Media Group &amp; Key Advertising Performance</h3>
                         <!-- 2. 미디어그룹별 광고 효과 분석: 서브섹션 -->
                         <div class="frame-미디어그룹별광고효과분석">
-                            <h4 class="text-subsection-title">2. 미디어그룹별 효과 분석</h4>
+                            <h4 class="text-subsection-title">2. Effectiveness Analysis by Media Group</h4>
                             <ol class="text-subsection-content media-group-list">
                                 <!-- 미디어그룹 리스트는 서버에서 반복문으로 동적 생성 -->
                                 <!-- 정렬 규칙: 유동 대비 노출순으로 정렬 (내림차순), 동일한 비율일 경우 ㄱㄴㄷ, a-z 순으로 정렬 -->
@@ -131,11 +131,11 @@
                 <!-- 정보 박스 헤더 -->
                 <div class="info-box-header">
                     <img src="icon1.svg" alt="아이콘" class="frame-icon">
-                    <span class="text-info-title">효과 분석 안내</span>
+                    <span class="text-info-title">Analysis Guide</span>
                 </div>
                 <!-- 내용 텍스트 -->
-                <p class="text-info-content">효과 분석은 공공데이터, 통신사 데이터, 모바일 OD, 자체 수집 데이터를 기반으로 한 엠앤엠네트웍스의 알고리즘 기반 AI 효과 지표 분석 결과입니다. 
-                    <br>본 분석은 옥외광고표준화 얼라이언스 가이드를 준수합니다.</p>
+                <p class="text-info-content">This analysis is based on public data, telecom data, mobile OD, and proprietary data by M&amp;M Networks using AI-powered algorithms.
+                    <br>This analysis complies with the Out-of-Home Advertising Standardization Alliance guidelines.</p>
             </div>
             
             <!-- 페이지 번호: container 기준 -->
@@ -147,7 +147,7 @@
     <section class="page page-divider">
         <div class="container container-divider">
             <div class="divider-content">
-                <h1 class="divider-title">1. 미디어그룹 및 주요 광고 성과</h1>
+                <h1 class="divider-title">1. Media Group &amp; Key Advertising Performance</h1>
                 <div class="divider-logo">
                     <img src="logo-black.png" alt="ADeX 로고" class="logo-image">
                 </div>
@@ -168,15 +168,15 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 상품 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group Products &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">미디어그룹 상품 정보</h1>
-                    <p class="text-media-subtitle">미디어그룹 상품 및 광고 기간에 대한 정보</p>
+                    <h1 class="text-media-title">Media Group Product Information</h1>
+                    <p class="text-media-subtitle">Information on media group products and advertising period</p>
                 </div>
             </div>
 
@@ -186,7 +186,7 @@
                 <div class="frame-내용">
                     <!-- content title: 광고 정보 헤더 -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">광고 정보</h2>
+                        <h2 class="text-ad-info-title">Ad Information</h2>
                     </div>
 
                     <!-- table: 테이블 영역 (Frame table) -->
@@ -195,13 +195,13 @@
                         <!-- 첫 번째 행 -->
                         <tr class="table-row-first">
                             <td class="field field-label">
-                                <span class="field-text">광고주</span>
+                                <span class="field-text">Advertiser</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{광고주명}}</span>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">광고 계약명</span>
+                                <span class="field-text">Ad Contract Name</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{스케줄명}}</span>
@@ -211,18 +211,18 @@
                         <!-- 두 번째 행: 광고 기간 및 보고서 발행일 -->
                         <tr class="table-row-middle">
                             <td class="field field-label">
-                                <span class="field-text">광고 기간</span>
+                                <span class="field-text">Campaign Period</span>
                             </td>
                             <td class="field field-value field-bg-light">
                                 <div class="field-date-range">
                                     <span class="field-text">{{광고시작일}}</span>
                                     <span class="field-text">~</span>
                                     <span class="field-text">{{광고종료일}}</span>
-                                    <span class="field-text">(총 {{운영일수}}일)</span>
+                                    <span class="field-text">(Total {{운영일수}} days)</span>
                                 </div>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">보고서 발행일</span>
+                                <span class="field-text">Report Issue Date</span>
                             </td>
                             <td class="field field-value field-bg-light">
                                 <span class="field-text">{{보고서발행일}}</span>
@@ -235,8 +235,8 @@
                         <tr class="table-row-last">
                             <td class="field field-label field-tall">
                                 <div class="field-label-content field-label-media-product">
-                                    <span class="field-text">미디어그룹 상품</span>
-                                    <span class="field-text-small">(총 {{미디어그룹개수}}개 미디어그룹)</span>
+                                    <span class="field-text">Media Group Product</span>
+                                    <span class="field-text-small">(Total {{미디어그룹개수}} media groups)</span>
                                 </div>
                             </td>
                             <!-- Frame 16: 미디어그룹 값 그룹 -->
@@ -266,8 +266,8 @@
                             </td>
                             <td class="field field-label field-tall">
                                 <div class="field-label-content field-label-media-info">
-                                    <span class="field-text">미디어 정보</span>
-                                    <span class="field-text-small">(유형 / 사이즈 / 대수)</span>
+                                    <span class="field-text">Media Information</span>
+                                    <span class="field-text-small">(Type / Size / Units)</span>
                                 </div>
                             </td>
                             <!-- Frame 17: 미디어 정보 값 그룹 -->
@@ -315,10 +315,10 @@
                     </div>
 
                     <!-- 다음 페이지에 이어서 텍스트 -->
-                    <div class="text-continued-next-page">다음 페이지에 이어서</div>
+                    <div class="text-continued-next-page">Continued on next page</div>
 
                     <!-- pitch 안내 문구: 주석 -->
-                    <p class="text-pitch-note">※ 간격은 LED 미디어에 한해 기입됩니다.</p>
+                    <p class="text-pitch-note">※ Pitch applies to LED media only.</p>
                 </div>
             </div>
 
@@ -338,15 +338,15 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 상품 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group Products &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">미디어그룹 상품 정보</h1>
-                    <p class="text-media-subtitle">미디어그룹 상품 및 광고 기간에 대한 정보</p>
+                    <h1 class="text-media-title">Media Group Product Information</h1>
+                    <p class="text-media-subtitle">Information on media group products and advertising period</p>
                 </div>
             </div>
 
@@ -356,7 +356,7 @@
                 <div class="frame-내용">
                     <!-- content title: 광고 정보 헤더 -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">광고 정보</h2>
+                        <h2 class="text-ad-info-title">Ad Information</h2>
                     </div>
 
                     <!-- table: 테이블 영역 (Frame table) -->
@@ -365,13 +365,13 @@
                         <!-- 첫 번째 행 -->
                         <tr class="table-row-first">
                             <td class="field field-label">
-                                <span class="field-text">광고주</span>
+                                <span class="field-text">Advertiser</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{광고주명}}</span>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">광고 계약명</span>
+                                <span class="field-text">Ad Contract Name</span>
                             </td>
                             <td class="field field-value" colspan="1">
                                 <span class="field-text">{{스케줄명}}</span>
@@ -382,8 +382,8 @@
                         <tr class="table-row-last">
                             <td class="field field-label field-tall">
                                 <div class="field-label-content field-label-media-product">
-                                    <span class="field-text">미디어그룹 상품</span>
-                                    <span class="field-text-small">(총 {{미디어그룹개수}}개 미디어그룹)</span>
+                                    <span class="field-text">Media Group Product</span>
+                                    <span class="field-text-small">(Total {{미디어그룹개수}} media groups)</span>
                                 </div>
                             </td>
                             <!-- Frame 16: 미디어그룹 값 그룹 -->
@@ -400,8 +400,8 @@
                             </td>
                             <td class="field field-label field-tall">
                                 <div class="field-label-content field-label-media-info">
-                                    <span class="field-text">미디어 정보</span>
-                                    <span class="field-text-small">(유형 / 사이즈 / 대수)</span>
+                                    <span class="field-text">Media Information</span>
+                                    <span class="field-text-small">(Type / Size / Units)</span>
                                 </div>
                             </td>
                             <!-- Frame 17: 미디어 정보 값 그룹 -->
@@ -438,15 +438,15 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅰ</h1>
-                    <p class="text-media-subtitle">광고 기간 동안 수집된 데이터 기반 미디어그룹 효과 지표</p>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅰ</h1>
+                    <p class="text-media-subtitle">Media group effectiveness metrics based on data collected during the campaign period</p>
                 </div>
             </div>
 
@@ -456,10 +456,10 @@
                 <div class="frame-circulation-ots">
                     <!-- content title: circulation / ots 헤더 -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">유동인구 / 노출인구</h2>
+                        <h2 class="text-ad-info-title">Footfall / OTS</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 전체 미디어그룹의 유동인구・노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total footfall・OTS across all media groups</span>
                         </div>
                     </div>
 
@@ -468,16 +468,16 @@
                         <table class="frame-table frame-table-performance">
                         <tr class="table-row-first">
                             <td class="field field-label">
-                                <span class="field-text">유동인구</span>
+                                <span class="field-text">Footfall</span>
                             </td>
                             <td class="field field-value">
-                                <span class="field-text">{{circulation}}명</span>
+                                <span class="field-text">{{circulation}} people</span>
                             </td>
                             <td class="field field-label">
-                                <span class="field-text">노출인구</span>
+                                <span class="field-text">OTS</span>
                             </td>
                             <td class="field field-value">
-                                <span class="field-text">{{ots}}명</span>
+                                <span class="field-text">{{ots}} people</span>
                             </td>
                         </tr>
                         </table>
@@ -489,16 +489,16 @@
                         <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                         <!-- Frame 1686563118: 인사이트 텍스트 컨테이너 -->
                         <div class="frame-insight-text-container">
-                                <span>유동 대비 노출은 </span>
+                                <span>Exposure rate is </span>
                                 <!-- Frame 1686563120: 비율 텍스트 -->
                                 <span class="frame-insight-ratio-text">
                                     <span class="insight-value">{{노출비율}}%</span>
-                                    <span>로 </span>
+                                    <span>, showing </span>
                                 </span>
                                 <!-- Frame 1686563119: 효과 수준 텍스트 -->
                                 <span class="frame-insight-effect-level">
-                                    <span class="insight-highlight">{{광고효과수준}} 수준의 효과</span>
-                                    <span>를 보였습니다.</span>
+                                    <span class="insight-highlight">{{광고효과수준}} level effectiveness</span>
+                                    <span>.</span>
                                 </span>
                         </div>
                     </div>
@@ -508,10 +508,10 @@
                 <div class="frame-audience-summary">
                     <!-- content title: 주요 오디언스 요약 헤더 -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">주요 오디언스 요약</h2>
+                        <h2 class="text-ad-info-title">Key Audience Summary</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 전체 미디어그룹의 노출인구 총합, 미디어그룹별 노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total OTS across all media groups, total OTS per media group</span>
                         </div>
                     </div>
 
@@ -527,26 +527,26 @@
                                 <div class="frame-insight-multiline">
                                     <!-- Frame 1686563118: 첫 번째 줄 -->
                                     <div class="frame-insight-text-container">
-                                        <span>주요 오디언스 </span>
-                                        <span class="insight-highlight">1위는 </span>
+                                        <span>Top audience </span>
+                                        <span class="insight-highlight">#1 is </span>
                                         <!-- Frame 1686563120: 1위 정보 -->
                                         <span class="frame-insight-rank-1">
                                             <span class="insight-highlight">{{오디언스1위}}</span>
                                             <span class="insight-highlight">({{오디언스1위비율}}%), </span>
                                         </span>
-                                        <span class="insight-highlight">2위는 </span>
+                                        <span class="insight-highlight">#2 is </span>
                                         <!-- Frame 1686563121: 2위 정보 -->
                                         <span class="frame-insight-rank-2">
                                             <span class="insight-highlight">{{오디언스2위}}</span>
                                             <span class="insight-highlight">({{오디언스2위비율}}%), </span>
                                         </span>
-                                        <span class="insight-highlight">3위는 </span>
+                                        <span class="insight-highlight">#3 is </span>
                                         <!-- Frame 1686563122: 3위 정보 -->
                                         <span class="frame-insight-rank-3">
                                             <span class="insight-highlight">{{오디언스3위}}</span>
                                             <span class="insight-highlight">({{오디언스3위비율}}%)</span>
                                         </span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </div>
                                     <!-- Frame 1686563119: 두 번째 줄 -->
                                     <div class="frame-insight-effect-level">
@@ -554,11 +554,11 @@
                                         <span class="frame-insight-audience-info">
                                             <span class="frame-insight-rank-3">
                                                 <span class="insight-highlight">{{오디언스1위}}</span>
-                                                <span>이 가장 많은 미디어그룹은 </span>
+                                                <span> has the most exposure in media group </span>
                                             </span>
                                         </span>
                                         <span class="insight-highlight">{{최다미디어그룹}}</span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </div>
                                 </div>
                             </div>
@@ -570,10 +570,10 @@
                 <div class="frame-max-exposure-group">
                     <!-- content title: 노출인구 최다 미디어그룹 헤더 -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">노출인구 최다 미디어그룹</h2>
+                        <h2 class="text-ad-info-title">Media Group with Highest OTS</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 미디어그룹별 노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total OTS per media group</span>
                         </div>
                     </div>
 
@@ -585,16 +585,16 @@
                             <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                             <!-- Frame 1686563118: 인사이트 텍스트 -->
                             <div class="frame-insight-text-container">
-                                <span>노출인구가 가장 많은 미디어그룹은 </span>
+                                <span>The media group with the highest OTS is </span>
                                 <!-- Frame 1686563120: 미디어그룹 정보 -->
                                 <span class="frame-insight-media-group-info">
                                     <span class="insight-highlight">{{최다미디어그룹}}</span>
-                                    <span>이며, 노출인구 수는 </span>
+                                    <span>, with OTS of </span>
                                 </span>
                                 <!-- Frame 1686563121: ots 수 정보 -->
                                 <span class="frame-insight-ots-count">
-                                    <span class="insight-highlight">{{최다ots수}}명</span>
-                                    <span>입니다.</span>
+                                    <span class="insight-highlight">{{최다ots수}} people</span>
+                                    <span>.</span>
                                 </span>
                             </div>
                         </div>
@@ -619,14 +619,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅱ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅱ</h1>
                 </div>
             </div>
 
@@ -634,10 +634,10 @@
             <div class="performance-chart-section">
                 <!-- content title -->
                 <div class="frame-content-title">
-                    <h2 class="text-ad-info-title">미디어그룹별 유동인구와 노출인구</h2>
+                    <h2 class="text-ad-info-title">Footfall and OTS by Media Group</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 미디어그룹별 유동인구・노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total footfall・OTS per media group</span>
                         </div>
                 </div>
 
@@ -663,14 +663,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅲ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅲ</h1>
                 </div>
             </div>
 
@@ -680,10 +680,10 @@
                 <div class="performance-table-wrapper">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">미디어그룹별 광고 성과</h2>
+                        <h2 class="text-ad-info-title">Advertising Performance by Media Group</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 유동인구・노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total footfall・OTS</span>
                         </div>
                     </div>
 
@@ -693,10 +693,10 @@
                         <!-- 테이블 헤더 -->
                         <thead>
                             <tr class="table-header-row">
-                                <th class="field field-label">미디어그룹명</th>
-                                <th class="field field-label">유동인구</th>
-                                <th class="field field-label">노출인구</th>
-                                <th class="field field-label">유동인구 대비 노출인구 비율</th>
+                                <th class="field field-label">Media Group Name</th>
+                                <th class="field field-label">Footfall</th>
+                                <th class="field field-label">OTS</th>
+                                <th class="field field-label">OTS Rate (vs Footfall)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -730,50 +730,50 @@
                             <!-- 첫 페이지: 1-8행 -->
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_1}}</td>
-                                <td class="field field-value">{{circulation_1}}명</td>
-                                <td class="field field-value">{{ots_1}}명</td>
+                                <td class="field field-value">{{circulation_1}} people</td>
+                                <td class="field field-value">{{ots_1}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_1}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_2}}</td>
-                                <td class="field field-value">{{circulation_2}}명</td>
-                                <td class="field field-value">{{ots_2}}명</td>
+                                <td class="field field-value">{{circulation_2}} people</td>
+                                <td class="field field-value">{{ots_2}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_2}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_3}}</td>
-                                <td class="field field-value">{{circulation_3}}명</td>
-                                <td class="field field-value">{{ots_3}}명</td>
+                                <td class="field field-value">{{circulation_3}} people</td>
+                                <td class="field field-value">{{ots_3}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_3}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_4}}</td>
-                                <td class="field field-value">{{circulation_4}}명</td>
-                                <td class="field field-value">{{ots_4}}명</td>
+                                <td class="field field-value">{{circulation_4}} people</td>
+                                <td class="field field-value">{{ots_4}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_4}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_5}}</td>
-                                <td class="field field-value">{{circulation_5}}명</td>
-                                <td class="field field-value">{{ots_5}}명</td>
+                                <td class="field field-value">{{circulation_5}} people</td>
+                                <td class="field field-value">{{ots_5}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_5}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_6}}</td>
-                                <td class="field field-value">{{circulation_6}}명</td>
-                                <td class="field field-value">{{ots_6}}명</td>
+                                <td class="field field-value">{{circulation_6}} people</td>
+                                <td class="field field-value">{{ots_6}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_6}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_7}}</td>
-                                <td class="field field-value">{{circulation_7}}명</td>
-                                <td class="field field-value">{{ots_7}}명</td>
+                                <td class="field field-value">{{circulation_7}} people</td>
+                                <td class="field field-value">{{ots_7}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_7}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_8}}</td>
-                                <td class="field field-value">{{circulation_8}}명</td>
-                                <td class="field field-value">{{ots_8}}명</td>
+                                <td class="field field-value">{{circulation_8}} people</td>
+                                <td class="field field-value">{{ots_8}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_8}}%</td>
                             </tr>
                         </tbody>
@@ -781,10 +781,10 @@
                     </div>
 
                     <!-- 주석 문구: 동일한 장소의 미디어그룹 안내 -->
-                    <p class="text-performance-table-note">*동일한 장소의 미디어그룹은 동일한 유동·노출 인구 지표를 기준으로 광고 효과가 산정됩니다.</p>
+                    <p class="text-performance-table-note">*Media groups at the same location share the same footfall/OTS metrics for effectiveness measurement.</p>
 
                     <!-- 다음 페이지에 이어서 텍스트 -->
-                    <div class="text-continued-next-page text-continued-performance-table">다음 페이지에 이어서</div>
+                    <div class="text-continued-next-page text-continued-performance-table">Continued on next page</div>
 
             </div>
         </div>
@@ -804,14 +804,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅲ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅲ</h1>
                 </div>
             </div>
 
@@ -821,10 +821,10 @@
                 <div class="performance-table-wrapper">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">미디어그룹별 광고 성과</h2>
+                        <h2 class="text-ad-info-title">Advertising Performance by Media Group</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 유동인구・노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total footfall・OTS</span>
                         </div>
                     </div>
 
@@ -834,10 +834,10 @@
                         <!-- 테이블 헤더 -->
                         <thead>
                             <tr class="table-header-row">
-                                <th class="field field-label">미디어그룹명</th>
-                                <th class="field field-label">유동인구</th>
-                                <th class="field field-label">노출인구</th>
-                                <th class="field field-label">유동인구 대비 노출인구 비율</th>
+                                <th class="field field-label">Media Group Name</th>
+                                <th class="field field-label">Footfall</th>
+                                <th class="field field-label">OTS</th>
+                                <th class="field field-label">OTS Rate (vs Footfall)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -866,26 +866,26 @@
                             -->
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_9}}</td>
-                                <td class="field field-value">{{circulation_9}}명</td>
-                                <td class="field field-value">{{ots_9}}명</td>
+                                <td class="field field-value">{{circulation_9}} people</td>
+                                <td class="field field-value">{{ots_9}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_9}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_10}}</td>
-                                <td class="field field-value">{{circulation_10}}명</td>
-                                <td class="field field-value">{{ots_10}}명</td>
+                                <td class="field field-value">{{circulation_10}} people</td>
+                                <td class="field field-value">{{ots_10}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_10}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_11}}</td>
-                                <td class="field field-value">{{circulation_11}}명</td>
-                                <td class="field field-value">{{ots_11}}명</td>
+                                <td class="field field-value">{{circulation_11}} people</td>
+                                <td class="field field-value">{{ots_11}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_11}}%</td>
                             </tr>
                             <tr class="table-data-row">
                                 <td class="field field-value">{{미디어그룹명_12}}</td>
-                                <td class="field field-value">{{circulation_12}}명</td>
-                                <td class="field field-value">{{ots_12}}명</td>
+                                <td class="field field-value">{{circulation_12}} people</td>
+                                <td class="field field-value">{{ots_12}} people</td>
                                 <td class="field field-value">{{유동 대비 노출_12}}%</td>
                             </tr>
                         </tbody>
@@ -910,14 +910,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅳ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅳ</h1>
                 </div>
             </div>
 
@@ -927,10 +927,10 @@
                 <div class="frame-chart-age-gender">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">노출인구 연령・성별 분포 비교</h2>
+                        <h2 class="text-ad-info-title">OTS Age &amp; Gender Distribution Comparison</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 미디어그룹별 노출인구 총합</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Total OTS per media group</span>
                         </div>
                     </div>
 
@@ -955,14 +955,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅳ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅳ</h1>
                 </div>
             </div>
 
@@ -972,10 +972,10 @@
                 <div class="frame-chart-daily">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">일별 노출인구 비교</h2>
+                        <h2 class="text-ad-info-title">Daily OTS Comparison</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 미디어그룹별 일별 노출인구</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Daily OTS per media group</span>
                         </div>
                     </div>
 
@@ -1000,14 +1000,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅳ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅳ</h1>
                 </div>
             </div>
 
@@ -1017,10 +1017,10 @@
                 <div class="frame-chart-weekly">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">요일별 노출인구 비교</h2>
+                        <h2 class="text-ad-info-title">OTS Comparison by Day of Week</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}} | 산출 기준: 미디어그룹별 요일별 일 평균 노출인구</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}} | Basis: Daily average OTS per day of week per media group</span>
                         </div>
                     </div>
 
@@ -1053,14 +1053,14 @@
                     <div class="frame-top-title-group">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹 및 주요 광고 성과</span>
+                        <span class="text-목차-media">Media Group &amp; Key Advertising Performance</span>
                     </div>
-                    <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                    <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                    <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                    <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
                 </div>
                 <!-- sub title: 타이틀 영역 (Frame 9) -->
                 <div class="frame-sub-title">
-                    <h1 class="text-media-title">주요 광고 성과 - Ⅳ</h1>
+                    <h1 class="text-media-title">Key Advertising Performance - Ⅳ</h1>
                 </div>
             </div>
 
@@ -1070,10 +1070,10 @@
                 <div class="frame-chart-hourly">
                     <!-- Frame 21: content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-ad-info-title">시간대별 노출인구 비교</h2>
+                        <h2 class="text-ad-info-title">OTS Comparison by Time Slot</h2>
                         <!-- 데이터 분석 정보 -->
                         <div class="frame-data-info">
-                            <span class="data-info-text">수집 기간: {{광고시작일}} ~ {{광고종료일}}, 09시 ~ 22시 | 산출 기준: 미디어그룹별 시간대별 평균 노출인구</span>
+                            <span class="data-info-text">Collection Period: {{광고시작일}} ~ {{광고종료일}}, 09:00 ~ 22:00 | Basis: Average OTS by time slot per media group</span>
                         </div>
                     </div>
 
@@ -1102,13 +1102,13 @@
     <section class="page page-divider page-divider-2">
         <div class="container container-divider">
             <div class="divider-content">
-                <h1 class="divider-title divider-title-section2">미디어그룹별 효과 분석</h1>
+                <h1 class="divider-title divider-title-section2">Effectiveness Analysis by Media Group</h1>
                 <div class="divider-media-group-container">
                     <!-- Frame 1686563104: 분석 미디어그룹 목록 컨테이너 -->
                     <div class="divider-media-group-content">
                         <!-- Frame 21: 분석 미디어그룹 목록 제목 -->
                         <div class="divider-media-group-title-frame">
-                            <h2 class="divider-media-group-title">분석 미디어그룹 목록</h2>
+                            <h2 class="divider-media-group-title">Analyzed Media Group List</h2>
                         </div>
                         <!-- Frame 1686563105: 미디어그룹 목록 -->
                         <div class="divider-media-group-list">
@@ -1171,13 +1171,13 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹별 효과 분석</span>
+                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
                 </div>
-                <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
             </div>
             <!-- head: 헤더 영역 (Frame 10) -->
             <div class="frame-head">
@@ -1189,14 +1189,14 @@
                         <!-- 첫 번째 그룹 -->
                         <div class="frame-subtitle-line-1">
                             <span class="text-media-group-subtitle">{{광고물유형}}</span>
-                            <span class="text-media-group-subtitle-separator">이며,</span>
+                            <span class="text-media-group-subtitle-separator"> and,</span>
                         </div>
                         <!-- 두 번째 그룹 -->
                         <div class="frame-subtitle-line-2">
                             <!-- 지역명 그룹 -->
                             <div class="frame-subtitle-location">
                                 <span class="text-media-group-subtitle">{{장소적 특징}}</span>
-                                <span class="text-media-group-subtitle-region"> 지역</span>
+                                <span class="text-media-group-subtitle-region"> area</span>
                             </div>
                         </div>
                     </div>
@@ -1209,10 +1209,10 @@
                 <div class="frame-media-overview frame-media-overview-standalone">
                     <!-- 제목 + 광고 기간 -->
                     <div class="frame-media-overview-header">
-                        <h2 class="text-media-group-overview-title">미디어그룹 광고 개요</h2>
+                        <h2 class="text-media-group-overview-title">Media Group Ad Overview</h2>
                         <!-- 광고 기간 정보 -->
                         <div class="data-period-wrapper">
-                            <span class="data-info-text">광고 기간: </span>
+                            <span class="data-info-text">Campaign Period: </span>
                             <div class="data-period-range">
                                 <div class="data-period-range-inner">
                                     <!-- 시작일 -->
@@ -1224,8 +1224,8 @@
                                 </div>
                                 <!-- 총 일수 -->
                                 <div class="data-info-group">
-                                    <span class="data-info-text">(총 {{운영일수}}</span>
-                                    <span class="data-info-text">일)</span>
+                                    <span class="data-info-text">(Total {{운영일수}}</span>
+                                    <span class="data-info-text"> days)</span>
                                 </div>
                             </div>
                         </div>
@@ -1236,7 +1236,7 @@
                         <!-- 미디어 위치 행 -->
                         <div class="frame-media-info-row-1">
                             <div class="field field-label field-media-group">
-                                <span class="field-text">미디어 위치</span>
+                                <span class="field-text">Media Location</span>
                             </div>
                             <div class="field field-value field-media-group">
                                 <span class="field-text">{{미디어위치}}</span>
@@ -1246,12 +1246,12 @@
                         <!-- 미디어 대수 행 -->
                         <div class="frame-media-info-row-2">
                             <div class="field field-label field-media-group field-tall">
-                                <span class="field-text">미디어 대수</span>
+                                <span class="field-text">No. of Displays</span>
                             </div>
                             <div class="field field-value field-media-group field-tall">
                                 <!-- field 내부 그룹 -->
                                 <div class="field-value-inner-group">
-                                    <span class="field-text field-text-bold">총 {{미디어대수}}대</span>
+                                    <span class="field-text field-text-bold">Total {{미디어대수}} units</span>
                                     <span class="field-text">{{미디어유형/사이즈/간격/대수}}</span>
                                 </div>
                             </div>
@@ -1260,7 +1260,7 @@
                         <!-- 운영 시간 행 -->
                         <div class="frame-media-info-row-2">
                             <div class="field field-label field-media-group field-tall">
-                                <span class="field-text">운영 시간</span>
+                                <span class="field-text">Operating Hours</span>
                             </div>
                             <div class="field field-value field-media-group field-tall">
                                 <span class="field-text">{{운영시간}}</span>
@@ -1273,10 +1273,10 @@
                 <div class="frame-exposure-analysis">
                     <!-- content title -->
                     <div class="frame-content-title">
-                        <h2 class="text-media-group-overview-title">노출 효과 분석</h2>
+                        <h2 class="text-media-group-overview-title">Exposure Effectiveness Analysis</h2>
                         <!-- 수집 기간 정보 -->
                         <div class="data-info-meta">
-                            <span class="data-info-text">수집 기간: </span>
+                            <span class="data-info-text">Collection Period: </span>
                             <div class="data-period-range">
                                 <div class="data-period-range-inner">
                                     <div class="data-period-start">
@@ -1286,11 +1286,11 @@
                                     <span class="data-info-text">{{광고종료일}}</span>
                                 </div>
                             </div>
-                            <span class="data-info-text">| 산출 기준: </span>
+                            <span class="data-info-text">| Basis: </span>
                             <!-- 산출 기준 -->
                             <div class="data-info-wrapper">
                                 <div class="data-info-group">
-                                    <span class="data-info-text">유동・노출인구 총합</span>
+                                    <span class="data-info-text">Total footfall・OTS</span>
                                 </div>
                             </div>
                         </div>
@@ -1301,23 +1301,23 @@
                         <!-- 첫 번째 행 (유동인구, 노출인구) -->
                         <div class="frame-media-info-row-1">
                             <div class="field field-label field-media-group">
-                                <span class="field-text">유동인구</span>
+                                <span class="field-text">Footfall</span>
                             </div>
                             <div class="field field-value field-media-group field-bg-light">
-                                <span class="field-text">{{circulation}}명</span>
+                                <span class="field-text">{{circulation}} people</span>
                             </div>
                             <div class="field field-label field-media-group">
-                                <span class="field-text">노출인구</span>
+                                <span class="field-text">OTS</span>
                             </div>
                             <div class="field field-value field-media-group field-bg-light">
-                                <span class="field-text">{{ots}}명</span>
+                                <span class="field-text">{{ots}} people</span>
                             </div>
                         </div>
 
                         <!-- 두 번째 행 (유동 대비 노출) -->
                         <div class="frame-media-info-row-2">
                             <div class="field field-label field-media-group">
-                                <span class="field-text">유동 대비 노출</span>
+                                <span class="field-text">OTS Rate</span>
                             </div>
                             <div class="field field-value field-media-group field-bg-light">
                                 <span class="field-text">{{유동 대비 노출}}%</span>
@@ -1327,13 +1327,13 @@
                         <!-- 세 번째 행 (주요 오디언스, 주요 요일/시간대) -->
                         <div class="frame-media-info-row-3">
                             <div class="field field-label field-media-group">
-                                <span class="field-text">주요 오디언스</span>
+                                <span class="field-text">Key Audience</span>
                             </div>
                             <div class="field field-value field-media-group field-bg-light">
                                 <span class="field-text">{{주요오디언스}} ({{주요오디언스비율}}%)</span>
                             </div>
                             <div class="field field-label field-media-group">
-                                <span class="field-text">주요 요일/ 주요 시간대</span>
+                                <span class="field-text">Key Day / Key Time Slot</span>
                             </div>
                             <div class="field field-value field-media-group field-bg-light">
                                 <span class="field-text">{{주요요일}} / {{주요시간대}}</span>
@@ -1359,21 +1359,21 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹별 효과 분석</span>
+                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
                 </div>
-                <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
             </div>
 
             <!-- Container: 제목 영역 -->
             <div class="frame-exposure-visualization-title">
-                <h2 class="text-media-group-overview-title">노출 효과 시각화</h2>
+                <h2 class="text-media-group-overview-title">Exposure Effectiveness Visualization</h2>
                 <!-- 수집 기간 정보 -->
                 <div class="data-info-meta">
-                    <span class="data-info-text">수집 기간: </span>
+                    <span class="data-info-text">Collection Period: </span>
                     <div class="data-period-range">
                         <div class="data-period-range-inner">
                             <div class="data-period-start">
@@ -1395,13 +1395,13 @@
                         <div class="frame-visualization-icon">
                             <img src="agegender icon.svg" alt="차트 아이콘" class="visualization-icon">
                         </div>
-                        <h3 class="text-visualization-chart-title">연령・성별 분포</h3>
+                        <h3 class="text-visualization-chart-title">Age &amp; Gender Distribution</h3>
                         <!-- 산출 기준 -->
                         <div class="data-info-meta">
-                            <span class="data-info-text">산출 기준: </span>
+                            <span class="data-info-text">Basis: </span>
                             <div class="data-info-wrapper">
                                 <div class="data-info-group">
-                                    <span class="data-info-text">노출인구 총합</span>
+                                    <span class="data-info-text">Total OTS</span>
                                 </div>
                             </div>
                         </div>
@@ -1424,10 +1424,10 @@
                                 <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                                 <!-- Frame 1686563124: 텍스트 컨테이너 -->
                                 <div class="visualization-insight-text">
-                                    <span>노출인구가 가장 많은 연령・성별은 </span>
+                                    <span>The age/gender group with the highest OTS is </span>
                                     <span class="visualization-insight-highlight">
                                         <span class="insight-value">{{최다연령성별}}</span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </span>
                                 </div>
                             </div>
@@ -1442,13 +1442,13 @@
                         <div class="frame-visualization-icon">
                             <img src="daily icon.svg" alt="차트 아이콘" class="visualization-icon">
                         </div>
-                        <h3 class="text-visualization-chart-title">일별 노출인구</h3>
+                        <h3 class="text-visualization-chart-title">Daily OTS</h3>
                         <!-- 산출 기준 -->
                         <div class="data-info-meta">
-                            <span class="data-info-text">산출 기준: </span>
+                            <span class="data-info-text">Basis: </span>
                             <div class="data-info-wrapper">
                                 <div class="data-info-group">
-                                    <span class="data-info-text">일별 노출인구</span>
+                                    <span class="data-info-text">Daily OTS</span>
                                 </div>
                             </div>
                         </div>
@@ -1471,10 +1471,10 @@
                                 <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                                 <!-- Frame 1686563124: 텍스트 컨테이너 -->
                                 <div class="visualization-insight-text">
-                                    <span>노출인구가 가장 많은 날은 </span>
+                                    <span>The day with the highest OTS is </span>
                                     <span class="visualization-insight-highlight">
                                         <span class="insight-value">{{최다날짜}}</span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </span>
                                 </div>
                             </div>
@@ -1499,21 +1499,21 @@
                     <div class="breadcrumb-items">
                         <span class="text-스케줄명-media">{{스케줄명}}</span>
                         <span class="text-separator-media">|</span>
-                        <span class="text-목차-media">미디어그룹별 효과 분석</span>
+                        <span class="text-목차-media">Effectiveness Analysis by Media Group</span>
                         <span class="text-separator-media">></span>
                         <span class="text-미디어그룹명-media">{{미디어그룹명}}</span>
                     </div>
                 </div>
-                <!-- 디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service -->
-                <div class="text-platform-media">디지털 옥외광고 콘텐츠 미디어 통합 시스템 Dooh Service</div>
+                <!-- Digital Out-of-Home Content Media Integrated System Dooh Service -->
+                <div class="text-platform-media">Digital Out-of-Home Content Media Integrated System Dooh Service</div>
             </div>
 
             <!-- Container: 제목 영역 -->
             <div class="frame-exposure-visualization-title">
-                <h2 class="text-media-group-overview-title">노출 효과 시각화</h2>
+                <h2 class="text-media-group-overview-title">Exposure Effectiveness Visualization</h2>
                 <!-- 수집 기간 정보 -->
                 <div class="data-info-meta">
-                    <span class="data-info-text">수집 기간: </span>
+                    <span class="data-info-text">Collection Period: </span>
                     <div class="data-period-range">
                         <div class="data-period-range-inner">
                             <div class="data-period-start">
@@ -1535,13 +1535,13 @@
                         <div class="frame-visualization-icon">
                             <img src="day icon.svg" alt="차트 아이콘" class="visualization-icon">
                         </div>
-                        <h3 class="text-visualization-chart-title">요일별 노출인구</h3>
+                        <h3 class="text-visualization-chart-title">OTS by Day of Week</h3>
                         <!-- 산출 기준 -->
                         <div class="data-info-meta">
-                            <span class="data-info-text">산출 기준: </span>
+                            <span class="data-info-text">Basis: </span>
                             <div class="data-info-wrapper">
                                 <div class="data-info-group">
-                                    <span class="data-info-text">요일별 일 평균 노출인구</span>
+                                    <span class="data-info-text">Daily average OTS by day of week</span>
                                 </div>
                             </div>
                         </div>
@@ -1567,10 +1567,10 @@
                                 <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                                 <!-- Frame 1686563124: 텍스트 컨테이너 -->
                                 <div class="visualization-insight-text">
-                                    <span>노출인구가 가장 많은 요일은 </span>
+                                    <span>The day of the week with the highest OTS is </span>
                                     <span class="visualization-insight-highlight">
                                         <span class="insight-value">{{최다요일}}</span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </span>
                                 </div>
                             </div>
@@ -1585,13 +1585,13 @@
                         <div class="frame-visualization-icon">
                             <img src="time icon.svg" alt="차트 아이콘" class="visualization-icon">
                         </div>
-                        <h3 class="text-visualization-chart-title">시간대별 노출인구</h3>
+                        <h3 class="text-visualization-chart-title">OTS by Time Slot</h3>
                         <!-- 산출 기준 -->
                         <div class="data-info-meta">
-                            <span class="data-info-text">산출 기준: </span>
+                            <span class="data-info-text">Basis: </span>
                             <div class="data-info-wrapper">
                                 <div class="data-info-group">
-                                    <span class="data-info-text">시간대별 평균 노출인구</span>
+                                    <span class="data-info-text">Average OTS by time slot</span>
                                 </div>
                             </div>
                         </div>
@@ -1617,10 +1617,10 @@
                                 <img src="insight icon.svg" alt="인사이트 아이콘" class="insight-icon">
                                 <!-- Frame 1686563124: 텍스트 컨테이너 -->
                                 <div class="visualization-insight-text">
-                                    <span>노출인구가 가장 많은 시간대는 </span>
+                                    <span>The time slot with the highest OTS is </span>
                                     <span class="visualization-insight-highlight">
                                         <span class="insight-value">{{최다시간대}}</span>
-                                        <span>입니다.</span>
+                                        <span>.</span>
                                     </span>
                                 </div>
                             </div>
@@ -1645,8 +1645,8 @@
                     <div class="frame-logo-back-cover">
                         <img src="icon-group.png" alt="ADeX 로고" class="logo-back-cover">
                     </div>
-                    <!-- Dooh Service 서비스 운영팀 -->
-                    <div class="text-service-team-back-cover">Dooh Service 서비스 운영팀</div>
+                    <!-- Dooh Service Operations Team -->
+                    <div class="text-service-team-back-cover">Dooh Service Operations Team</div>
                 </div>
 
                 <!-- Rectangle 14: 구분선 -->
@@ -1654,7 +1654,7 @@
 
                 <!-- 문의 안내 -->
                 <div class="back-cover-contact">
-                    <div class="text-inquiry-back-cover">추가 문의 사항이 있으시다면 아래 이메일을 통해 문의를 남겨주시기 바랍니다.</div>
+                    <div class="text-inquiry-back-cover">For further inquiries, please contact us via the email below.</div>
                     <div class="text-email-back-cover">contact@mnmnetworks.com</div>
                 </div>
 
@@ -2262,7 +2262,7 @@
                                 },
                                 color: '#757575',
                                 callback: function(value) {
-                                    return value.toLocaleString() + '명';
+                                    return value.toLocaleString() + ' people';
                                 }
                             },
                             grid: {
@@ -2280,7 +2280,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -2353,7 +2353,7 @@
 
             // 유동인구 데이터셋
             const 유동인구데이터셋 = {
-                label: '유동인구',
+                label: 'Footfall',
                 data: 미디어그룹별유동노출인구데이터.미디어그룹리스트.map(g => g.유동인구),
                 backgroundColor: '#4DADFF',
                 borderColor: '#4DADFF',
@@ -2362,7 +2362,7 @@
 
             // 노출인구 데이터셋
             const 노출인구데이터셋 = {
-                label: '노출인구',
+                label: 'OTS',
                 data: 미디어그룹별유동노출인구데이터.미디어그룹리스트.map(g => g.노출인구),
                 backgroundColor: '#00C5A3',
                 borderColor: '#00C5A3',
@@ -2402,7 +2402,7 @@
                                 },
                                 color: '#757575',
                                 callback: function(value) {
-                                    return value.toLocaleString() + '명';
+                                    return value.toLocaleString() + ' people';
                                 }
                             },
                             grid: {
@@ -2420,7 +2420,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -2448,15 +2448,15 @@
             //     {
             //         미디어그룹명: '강남역 2호선 지하철 광고',
             //         연령대별데이터: [
-            //             { 연령대: '10-14세', 남성: 120, 여성: 110 },
-            //             { 연령대: '15-19세', 남성: 150, 여성: 140 },
-            //             { 연령대: '20-24세', 남성: 200, 여성: 180 },
-            //             { 연령대: '25-29세', 남성: 180, 여성: 190 },
-            //             { 연령대: '30대', 남성: 4200, 여성: 4600 },
-            //             { 연령대: '40대', 남성: 150, 여성: 160 },
-            //             { 연령대: '50대', 남성: 100, 여성: 120 },
-            //             { 연령대: '60대', 남성: 80, 여성: 90 },
-            //             { 연령대: '70대 이상', 남성: 50, 여성: 60 }
+            //             { 연령대: 'Ages 10–14', 남성: 120, 여성: 110 },
+            //             { 연령대: 'Ages 15–19', 남성: 150, 여성: 140 },
+            //             { 연령대: 'Ages 20–24', 남성: 200, 여성: 180 },
+            //             { 연령대: 'Ages 25–29', 남성: 180, 여성: 190 },
+            //             { 연령대: '30s', 남성: 4200, 여성: 4600 },
+            //             { 연령대: '40s', 남성: 150, 여성: 160 },
+            //             { 연령대: '50s', 남성: 100, 여성: 120 },
+            //             { 연령대: '60s', 남성: 80, 여성: 90 },
+            //             { 연령대: '70+', 남성: 50, 여성: 60 }
             //         ]
             //     },
             //     {
@@ -2474,43 +2474,43 @@
                 {
                     미디어그룹명: '강남역 2호선 지하철 광고',
                     연령대별데이터: [
-                        { 연령대: '10-14세', 남성: 120, 여성: 110 },
-                        { 연령대: '15-19세', 남성: 150, 여성: 140 },
-                        { 연령대: '20-24세', 남성: 200, 여성: 180 },
-                        { 연령대: '25-29세', 남성: 180, 여성: 190 },
-                        { 연령대: '30대', 남성: 4200, 여성: 4600 },
-                        { 연령대: '40대', 남성: 150, 여성: 160 },
-                        { 연령대: '50대', 남성: 100, 여성: 120 },
-                        { 연령대: '60대', 남성: 80, 여성: 90 },
-                        { 연령대: '70대 이상', 남성: 50, 여성: 60 }
+                        { 연령대: 'Ages 10–14', 남성: 120, 여성: 110 },
+                        { 연령대: 'Ages 15–19', 남성: 150, 여성: 140 },
+                        { 연령대: 'Ages 20–24', 남성: 200, 여성: 180 },
+                        { 연령대: 'Ages 25–29', 남성: 180, 여성: 190 },
+                        { 연령대: '30s', 남성: 4200, 여성: 4600 },
+                        { 연령대: '40s', 남성: 150, 여성: 160 },
+                        { 연령대: '50s', 남성: 100, 여성: 120 },
+                        { 연령대: '60s', 남성: 80, 여성: 90 },
+                        { 연령대: '70+', 남성: 50, 여성: 60 }
                     ]
                 },
                 {
                     미디어그룹명: '홍대입구역 빌딩',
                     연령대별데이터: [
-                        { 연령대: '10-14세', 남성: 100, 여성: 90 },
-                        { 연령대: '15-19세', 남성: 130, 여성: 120 },
-                        { 연령대: '20-24세', 남성: 180, 여성: 170 },
-                        { 연령대: '25-29세', 남성: 4000, 여성: 4200 },
-                        { 연령대: '30대', 남성: 180, 여성: 190 },
-                        { 연령대: '40대', 남성: 140, 여성: 150 },
-                        { 연령대: '50대', 남성: 90, 여성: 110 },
-                        { 연령대: '60대', 남성: 70, 여성: 80 },
-                        { 연령대: '70대 이상', 남성: 40, 여성: 50 }
+                        { 연령대: 'Ages 10–14', 남성: 100, 여성: 90 },
+                        { 연령대: 'Ages 15–19', 남성: 130, 여성: 120 },
+                        { 연령대: 'Ages 20–24', 남성: 180, 여성: 170 },
+                        { 연령대: 'Ages 25–29', 남성: 4000, 여성: 4200 },
+                        { 연령대: '30s', 남성: 180, 여성: 190 },
+                        { 연령대: '40s', 남성: 140, 여성: 150 },
+                        { 연령대: '50s', 남성: 90, 여성: 110 },
+                        { 연령대: '60s', 남성: 70, 여성: 80 },
+                        { 연령대: '70+', 남성: 40, 여성: 50 }
                     ]
                 },
                 {
                     미디어그룹명: '시청역 빌딩',
                     연령대별데이터: [
-                        { 연령대: '10-14세', 남성: 110, 여성: 100 },
-                        { 연령대: '15-19세', 남성: 140, 여성: 130 },
-                        { 연령대: '20-24세', 남성: 190, 여성: 180 },
-                        { 연령대: '25-29세', 남성: 200, 여성: 210 },
-                        { 연령대: '30대', 남성: 4300, 여성: 5200 },
-                        { 연령대: '40대', 남성: 160, 여성: 170 },
-                        { 연령대: '50대', 남성: 110, 여성: 130 },
-                        { 연령대: '60대', 남성: 90, 여성: 100 },
-                        { 연령대: '70대 이상', 남성: 60, 여성: 70 }
+                        { 연령대: 'Ages 10–14', 남성: 110, 여성: 100 },
+                        { 연령대: 'Ages 15–19', 남성: 140, 여성: 130 },
+                        { 연령대: 'Ages 20–24', 남성: 190, 여성: 180 },
+                        { 연령대: 'Ages 25–29', 남성: 200, 여성: 210 },
+                        { 연령대: '30s', 남성: 4300, 여성: 5200 },
+                        { 연령대: '40s', 남성: 160, 여성: 170 },
+                        { 연령대: '50s', 남성: 110, 여성: 130 },
+                        { 연령대: '60s', 남성: 90, 여성: 100 },
+                        { 연령대: '70+', 남성: 60, 여성: 70 }
                     ]
                 }
             ];
@@ -2523,7 +2523,7 @@
             );
 
             // 연령대 라벨 (모든 그룹이 동일한 연령대 사용)
-            const 연령대라벨 = ['10-14세', '15-19세', '20-24세', '25-29세', '30대', '40대', '50대', '60대', '70대 이상'];
+            const 연령대라벨 = ['Ages 10–14', 'Ages 15–19', 'Ages 20–24', 'Ages 25–29', '30s', '40s', '50s', '60s', '70+'];
 
             // 각 미디어그룹별로 차트 생성
             미디어그룹별연령대데이터.forEach((그룹, index) => {
@@ -2555,7 +2555,7 @@
                 maleIcon.className = 'legend-icon legend-male';
                 const maleText = document.createElement('span');
                 maleText.className = 'legend-text';
-                maleText.textContent = '남성';
+                maleText.textContent = 'Male';
                 maleLegendItem.appendChild(maleIcon);
                 maleLegendItem.appendChild(maleText);
                 
@@ -2566,7 +2566,7 @@
                 femaleIcon.className = 'legend-icon legend-female';
                 const femaleText = document.createElement('span');
                 femaleText.className = 'legend-text';
-                femaleText.textContent = '여성';
+                femaleText.textContent = 'Female';
                 femaleLegendItem.appendChild(femaleIcon);
                 femaleLegendItem.appendChild(femaleText);
                 
@@ -2605,14 +2605,14 @@
                         labels: 연령대라벨,
                         datasets: [
                             {
-                                label: '남성',
+                                label: 'Male',
                                 data: 남성데이터,
                                 backgroundColor: '#4DADFF',
                                 borderColor: '#4DADFF',
                                 borderWidth: 0
                             },
                             {
-                                label: '여성',
+                                label: 'Female',
                                 data: 여성데이터,
                                 backgroundColor: '#FFA462',
                                 borderColor: '#FFA462',
@@ -2679,7 +2679,7 @@
                                     label: function(context) {
                                         const label = context.dataset.label || '';
                                         const value = Math.abs(context.parsed.x);
-                                        return label + ': ' + value + '명';
+                                        return label + ': ' + value + ' people';
                                     }
                                 },
                                 titleFont: {
@@ -3014,7 +3014,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -3075,7 +3075,7 @@
             // 서버 측에서 템플릿 변수를 실제 데이터로 치환해야 합니다
             // 예시 구조:
             // const 요일별노출인구데이터 = {
-            //     요일리스트: ['월', '화', '수', '목', '금', '토', '일'],
+            //     요일리스트: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             //     미디어그룹리스트: [
             //         {
             //             미디어그룹명: '강남역 2호선 지하철 광고',
@@ -3098,7 +3098,7 @@
             
             // 임시 데이터 (서버에서 위의 템플릿으로 치환)
             const 요일별노출인구데이터 = {
-                요일리스트: ['월', '화', '수', '목', '금', '토', '일'],
+                요일리스트: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                 미디어그룹리스트: [
                     {
                         미디어그룹명: '강남역 2호선 지하철 광고',
@@ -3173,7 +3173,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = '일평균 노출인구수';
+                legendTextAvg.textContent = 'Daily Avg OTS';
                 legendItemAvg.appendChild(legendTextAvg);
                 weeklyLegendEl.appendChild(legendItemAvg);
             }
@@ -3203,7 +3203,7 @@
             });
             
             datasets.unshift({
-                label: '일평균 노출인구수',
+                label: 'Daily Avg OTS',
                 data: 요일별일평균,
                 type: 'line',
                 borderColor: '#008aff',
@@ -3268,7 +3268,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -3309,7 +3309,7 @@
                                 ctx.font = '700 11px Pretendard';
                                 ctx.textAlign = 'center';
                                 ctx.textBaseline = 'bottom';
-                                ctx.fillText(`총 ${최대총합값.toLocaleString()}명`, x, y);
+                                ctx.fillText(`Total ${최대총합값.toLocaleString()}`, x, y);
                                 ctx.restore();
                             }
                             
@@ -3334,7 +3334,7 @@
                                         // 텍스트 크기 측정
                                         ctx.save();
                                         ctx.font = '700 11px Pretendard';
-                                        const text = 정보.최대값.toLocaleString() + '명';
+                                        const text = 정보.최대값.toLocaleString() + ' ppl';
                                         const textMetrics = ctx.measureText(text);
                                         const textWidth = textMetrics.width;
                                         
@@ -3367,7 +3367,7 @@
             // 서버 측에서 템플릿 변수를 실제 데이터로 치환해야 합니다
             // 예시 구조:
             // const 시간대별노출인구데이터 = {
-            //     시간대리스트: ['09시', '10시', '11시', '12시', '13시', '14시', '15시', '16시', '17시', '18시', '19시', '20시', '21시', '22시'],
+            //     시간대리스트: ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'],
             //     미디어그룹리스트: [
             //         {
             //             미디어그룹명: '강남역 2호선 지하철 광고',
@@ -3390,7 +3390,7 @@
             
             // 임시 데이터 (서버에서 위의 템플릿으로 치환)
             const 시간대별노출인구데이터 = {
-                시간대리스트: ['09시', '10시', '11시', '12시', '13시', '14시', '15시', '16시', '17시', '18시', '19시', '20시', '21시', '22시'],
+                시간대리스트: ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'],
                 미디어그룹리스트: [
                     {
                         미디어그룹명: '강남역 2호선 지하철 광고',
@@ -3465,7 +3465,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = '시간대 평균 노출인구수';
+                legendTextAvg.textContent = 'Hourly Avg OTS';
                 legendItemAvg.appendChild(legendTextAvg);
                 hourlyLegendEl.appendChild(legendItemAvg);
             }
@@ -3503,7 +3503,7 @@
 
             // 시간대 평균선 데이터셋 추가 (보조선)
             datasets.push({
-                label: '시간대 평균 노출인구수',
+                label: 'Hourly Avg OTS',
                 data: Array(시간대별노출인구데이터.시간대리스트.length).fill(시간대별노출인구데이터.시간대평균),
                 type: 'line',
                 borderColor: '#008aff',
@@ -3568,7 +3568,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -3644,28 +3644,28 @@
             // 서버 측에서 템플릿 변수를 실제 데이터로 치환해야 합니다
             // 예시 구조:
             // const 연령대별데이터 = [
-            //     { 연령대: '10-14세', 남성: 120, 여성: 110 },
-            //     { 연령대: '15-19세', 남성: 150, 여성: 140 },
-            //     { 연령대: '20-24세', 남성: 200, 여성: 180 },
-            //     { 연령대: '25-29세', 남성: 180, 여성: 190 },
-            //     { 연령대: '30대', 남성: 4200, 여성: 4600 },
-            //     { 연령대: '40대', 남성: 150, 여성: 160 },
-            //     { 연령대: '50대', 남성: 100, 여성: 120 },
-            //     { 연령대: '60대', 남성: 80, 여성: 90 },
-            //     { 연령대: '70대 이상', 남성: 50, 여성: 60 }
+            //     { 연령대: 'Ages 10–14', 남성: 120, 여성: 110 },
+            //     { 연령대: 'Ages 15–19', 남성: 150, 여성: 140 },
+            //     { 연령대: 'Ages 20–24', 남성: 200, 여성: 180 },
+            //     { 연령대: 'Ages 25–29', 남성: 180, 여성: 190 },
+            //     { 연령대: '30s', 남성: 4200, 여성: 4600 },
+            //     { 연령대: '40s', 남성: 150, 여성: 160 },
+            //     { 연령대: '50s', 남성: 100, 여성: 120 },
+            //     { 연령대: '60s', 남성: 80, 여성: 90 },
+            //     { 연령대: '70+', 남성: 50, 여성: 60 }
             // ];
             
             // 임시 데이터 (서버에서 위의 템플릿으로 치환)
             const 연령대별데이터 = [
-                { 연령대: '10-14세', 남성: 120, 여성: 110 },
-                { 연령대: '15-19세', 남성: 150, 여성: 140 },
-                { 연령대: '20-24세', 남성: 200, 여성: 180 },
-                { 연령대: '25-29세', 남성: 180, 여성: 190 },
-                { 연령대: '30대', 남성: 4200, 여성: 4600 },
-                { 연령대: '40대', 남성: 150, 여성: 160 },
-                { 연령대: '50대', 남성: 100, 여성: 120 },
-                { 연령대: '60대', 남성: 80, 여성: 90 },
-                { 연령대: '70대 이상', 남성: 50, 여성: 60 }
+                { 연령대: 'Ages 10–14', 남성: 120, 여성: 110 },
+                { 연령대: 'Ages 15–19', 남성: 150, 여성: 140 },
+                { 연령대: 'Ages 20–24', 남성: 200, 여성: 180 },
+                { 연령대: 'Ages 25–29', 남성: 180, 여성: 190 },
+                { 연령대: '30s', 남성: 4200, 여성: 4600 },
+                { 연령대: '40s', 남성: 150, 여성: 160 },
+                { 연령대: '50s', 남성: 100, 여성: 120 },
+                { 연령대: '60s', 남성: 80, 여성: 90 },
+                { 연령대: '70+', 남성: 50, 여성: 60 }
             ];
 
             // 범례 생성
@@ -3677,7 +3677,7 @@
                 maleIcon.className = 'legend-icon legend-male';
                 const maleText = document.createElement('span');
                 maleText.className = 'legend-text';
-                maleText.textContent = '남성';
+                maleText.textContent = 'Male';
                 maleLegendItem.appendChild(maleIcon);
                 maleLegendItem.appendChild(maleText);
                 
@@ -3688,7 +3688,7 @@
                 femaleIcon.className = 'legend-icon legend-female';
                 const femaleText = document.createElement('span');
                 femaleText.className = 'legend-text';
-                femaleText.textContent = '여성';
+                femaleText.textContent = 'Female';
                 femaleLegendItem.appendChild(femaleIcon);
                 femaleLegendItem.appendChild(femaleText);
                 
@@ -3723,14 +3723,14 @@
                     labels: 연령대라벨,
                     datasets: [
                         {
-                            label: '남성',
+                            label: 'Male',
                             data: 남성데이터,
                             backgroundColor: '#4DADFF',
                             borderColor: '#4DADFF',
                             borderWidth: 0
                         },
                         {
-                            label: '여성',
+                            label: 'Female',
                             data: 여성데이터,
                             backgroundColor: '#FFA462',
                             borderColor: '#FFA462',
@@ -3791,7 +3791,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = Math.abs(context.parsed.x);
-                                    return label + ': ' + value + '명';
+                                    return label + ': ' + value + ' people';
                                 }
                             },
                             titleFont: {
@@ -3918,7 +3918,7 @@
                 data: {
                     labels: 일별노출인구데이터.날짜리스트,
                     datasets: [{
-                        label: '노출인구',
+                        label: 'OTS',
                         data: 일별노출인구데이터.일별데이터,
                         backgroundColor: '#4DADFF',
                         borderColor: '#4DADFF',
@@ -3950,7 +3950,7 @@
                                 },
                                 color: '#757575',
                                 callback: function(value) {
-                                    return value.toLocaleString() + '명';
+                                    return value.toLocaleString() + ' people';
                                 }
                             },
                             grid: {
@@ -4026,7 +4026,7 @@
             // 서버 측에서 템플릿 변수를 실제 데이터로 치환해야 합니다
             // 예시 구조:
             // const 요일별노출인구데이터 = {
-            //     요일리스트: ['월', '화', '수', '목', '금', '토', '일'],
+            //     요일리스트: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             //     미디어그룹리스트: [
             //         {
             //             미디어그룹명: '강남역 2호선 지하철 광고',
@@ -4040,7 +4040,7 @@
             
             // 임시 데이터 (서버에서 위의 템플릿으로 치환)
             const 요일별노출인구데이터 = {
-                요일리스트: ['월', '화', '수', '목', '금', '토', '일'],
+                요일리스트: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                 미디어그룹리스트: [
                     {
                         미디어그룹명: '{{미디어그룹명1}}',
@@ -4109,7 +4109,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = '일평균 노출인구수';
+                legendTextAvg.textContent = 'Daily Avg OTS';
                 legendItemAvg.appendChild(legendTextAvg);
                 visualizationWeeklyLegendEl.appendChild(legendItemAvg);
             }
@@ -4136,7 +4136,7 @@
             });
             
             datasets.unshift({
-                label: '일평균 노출인구수',
+                label: 'Daily Avg OTS',
                 data: 요일별일평균,
                 type: 'line',
                 borderColor: '#008aff',
@@ -4201,7 +4201,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
@@ -4241,7 +4241,7 @@
                                 ctx.font = '700 11px Pretendard';
                                 ctx.textAlign = 'center';
                                 ctx.textBaseline = 'bottom';
-                                ctx.fillText(`총 ${최대총합값.toLocaleString()}명`, x, y);
+                                ctx.fillText(`Total ${최대총합값.toLocaleString()}`, x, y);
                                 ctx.restore();
                             }
                             
@@ -4262,7 +4262,7 @@
                                         
                                         ctx.save();
                                         ctx.font = '700 11px Pretendard';
-                                        const text = 정보.최대값.toLocaleString() + '명';
+                                        const text = 정보.최대값.toLocaleString() + ' ppl';
                                         const textMetrics = ctx.measureText(text);
                                         const textWidth = textMetrics.width;
                                         const barWidth = Math.abs(bar.width);
@@ -4292,7 +4292,7 @@
             // 서버 측에서 템플릿 변수를 실제 데이터로 치환해야 합니다
             // 예시 구조:
             // const 시간대별노출인구데이터 = {
-            //     시간대리스트: ['09시', '10시', '11시', '12시', '13시', '14시', '15시', '16시', '17시', '18시', '19시', '20시', '21시', '22시'],
+            //     시간대리스트: ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'],
             //     미디어그룹리스트: [
             //         {
             //             미디어그룹명: '{{미디어그룹명1}}',
@@ -4306,7 +4306,7 @@
             
             // 임시 데이터 (서버에서 위의 템플릿으로 치환)
             const 시간대별노출인구데이터 = {
-                시간대리스트: ['09시', '10시', '11시', '12시', '13시', '14시', '15시', '16시', '17시', '18시', '19시', '20시', '21시', '22시'],
+                시간대리스트: ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'],
                 미디어그룹리스트: [
                     {
                         미디어그룹명: '{{미디어그룹명1}}',
@@ -4375,7 +4375,7 @@
                 legendItemAvg.className = 'legend-item';
                 const legendTextAvg = document.createElement('span');
                 legendTextAvg.className = 'legend-text';
-                legendTextAvg.textContent = '시간대 평균 노출인구수';
+                legendTextAvg.textContent = 'Hourly Avg OTS';
                 legendItemAvg.appendChild(legendTextAvg);
                 visualizationHourlyLegendEl.appendChild(legendItemAvg);
             }
@@ -4409,7 +4409,7 @@
 
             // 시간대 평균선 데이터셋 추가 (보조선)
             datasets.push({
-                label: '시간대 평균 노출인구수',
+                label: 'Hourly Avg OTS',
                 data: Array(시간대별노출인구데이터.시간대리스트.length).fill(시간대별노출인구데이터.시간대평균),
                 type: 'line',
                 borderColor: '#008aff',
@@ -4474,7 +4474,7 @@
                                 label: function(context) {
                                     const label = context.dataset.label || '';
                                     const value = context.parsed.y;
-                                    return label + ': ' + value.toLocaleString() + '명';
+                                    return label + ': ' + value.toLocaleString() + ' people';
                                 }
                             },
                             titleFont: {
