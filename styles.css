@@ -693,14 +693,14 @@ section.page:last-child {
     position: absolute;
     left: 16px;
     top: 0px;
-    width: auto;
+    width: 47px;
     height: 35px;
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 600;
     font-size: 27px;
     line-height: 35px;
-    letter-spacing: 4px;
+    letter-spacing: -0.25px; /* -1px * 1.33333 */
     color: #B5FFB8;
     margin: 0;
     padding: 0;
