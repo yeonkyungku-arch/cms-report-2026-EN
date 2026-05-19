@@ -4340,6 +4340,17 @@ canvas[id="chart-canvas"] {
     border-top: 1px solid #e0e0e0 !important; /* Operating Hours 상단 stroke 복구 */
 }
 
+/* 페이지 13: Number of Media 필드 높이 52px로 설정 */
+.page-media-group-frame119 .frame-media-info-row-2 .field-label.field-media-group {
+    height: 52px !important;
+    min-height: 52px !important;
+}
+
+.page-media-group-frame119 .frame-media-info-row-2 .field-value.field-media-group {
+    height: 52px !important;
+    min-height: 52px !important;
+}
+
 /* Media count overflow handling */
 .field-value.field-media-group.field-tall.media-count-limit {
     max-height: 100px;
