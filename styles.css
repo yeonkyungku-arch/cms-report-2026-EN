@@ -2079,6 +2079,11 @@ ol.text-subsection-content.media-group-list {
     margin-bottom: 40px; /* 다음 요소와의 간격 */
 }
 
+.frame-audience-summary .frame-content-title {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important; /* 하단 패딩/마진 삭제 */
+}
+
 /* Image: 이미지 영역 */
 .frame-image {
     position: absolute;
