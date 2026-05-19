@@ -1106,17 +1106,17 @@ ol.text-subsection-content.media-group-list {
 /* 간지 2: 섹션2 표지 제목 스타일 */
 .divider-title-section2 {
     position: absolute;
-    left: 54px; /* Figma: x: 4949 - 4909 (Frame 시작) = 40px, 하지만 container padding 54px */
-    top: 54px; /* Figma: y: 11675 - 11635 (Frame 시작) = 40px, 하지만 container padding 54px */
-    width: fit-content; /* Fit content width */
-    height: auto; /* Auto height for content */
+    left: 54px; /* 2471 - 2431 = 40px */
+    top: 54px; /* 1232 - 1192 = 40px */
+    width: 784px;
+    height: 64px;
     font-family: 'Pretendard';
     font-style: normal;
-    font-weight: 700; /* Bold */
-    font-size: 40px; /* Figma: 40px */
-    line-height: 48px; /* Figma: 48px */
-    letter-spacing: -0.16px; /* Figma: -0.16px */
-    color: #58C65D; /* Figma: #58c65d */
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 64px;
+    letter-spacing: -0.25px; /* -1px * 1.33333 */
+    color: #58C65D;
     margin: 0;
     padding: 0;
 }
