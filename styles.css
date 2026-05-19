@@ -139,6 +139,12 @@ section.page::after {
     color: #58C65D;
 }
 
+/* 표지 페이지 1: Dooh Service 문구 제거 */
+section.page.page-cover::after {
+    content: '' !important;
+    display: none !important;
+}
+
 /* 1장, 2장 간지: Dooh Service 문구 제거 */
 section.page.page-divider::after {
     content: '' !important;
