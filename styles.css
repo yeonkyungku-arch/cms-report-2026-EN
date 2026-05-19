@@ -1947,10 +1947,10 @@ ol.text-subsection-content.media-group-list {
 
 /* 미디어그룹별 광고 성과 테이블의 "다음 페이지에 이어서" 문구 */
 .text-continued-performance-table {
-    position: relative;
+    position: absolute;
     left: auto;
-    right: 0; /* 우측 정렬 */
-    top: auto;
+    right: 54px; /* 우측 정렬 */
+    bottom: 30px; /* 페이지 넘버보다 위에 배치 */
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400; /* Regular */
@@ -1959,7 +1959,7 @@ ol.text-subsection-content.media-group-list {
     letter-spacing: -0.04px;
     color: #757575;
     text-align: right;
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 0; /* padding 제거, top 위치로만 조정 */
     z-index: 10;
