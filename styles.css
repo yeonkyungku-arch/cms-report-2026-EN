@@ -2081,6 +2081,7 @@ ol.text-subsection-content.media-group-list {
     width: 1016px;
     height: auto; /* hug */
     min-height: 65px;
+    margin-bottom: -20px; /* 하단 여백 감소 */
 }
 
 /* content title: 성과 페이지용 (데이터 분석 정보 포함) */
