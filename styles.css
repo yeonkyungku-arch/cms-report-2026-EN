@@ -2012,6 +2012,7 @@ ol.text-subsection-content.media-group-list {
     position: absolute !important;
     top: auto !important;
     bottom: 10px !important; /* 페이지 하단에서 10px 위에 배치 */
+    width: auto !important; /* 넓이 자동 조정 */
 }
 
 /* pitch 안내 문구: 주석 텍스트 */
