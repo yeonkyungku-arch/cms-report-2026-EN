@@ -2252,7 +2252,7 @@ ol.text-subsection-content.media-group-list {
 .frame-insight-large {
     height: auto; /* 주요 오디언스 요약의 insight는 hug (auto) */
     min-height: 58px; /* 최소 높이 유지 */
-    margin-top: 12px; /* 상단 여백 추가 */
+    margin-top: 24px; /* 상단 여백 추가 */
 }
 
 .frame-insight.frame-insight-large {
