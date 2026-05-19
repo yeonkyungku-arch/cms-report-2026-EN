@@ -2110,6 +2110,7 @@ ol.text-subsection-content.media-group-list {
     flex-direction: column;
         align-items: flex-start;
     padding-left: 8px;
+    padding-bottom: 0; /* 하단 패딩 제거 */
 }
 
 .frame-contents .text-ad-info-title {
