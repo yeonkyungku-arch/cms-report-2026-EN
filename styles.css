@@ -1126,7 +1126,7 @@ ol.text-subsection-content.media-group-list {
 }
 
 .logo-image {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
     display: block;
