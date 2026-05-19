@@ -4124,6 +4124,7 @@ canvas[id="chart-canvas"] {
 .page-media-group-frame119 .frame-media-info-row-3 {
     height: 52px;
     min-height: 52px;
+    margin-top: 8px;
 }
 
 /* 페이지 13: field-tall이 있어도 행 높이는 52px로 통일 */
