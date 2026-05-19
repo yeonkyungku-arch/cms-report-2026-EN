@@ -1096,7 +1096,7 @@ ol.text-subsection-content.media-group-list {
     position: absolute;
     left: 54px; /* 2471 - 2431 = 40px */
     top: 54px; /* 1232 - 1192 = 40px */
-    width: 784px;
+    width: auto;
     height: 64px;
     font-family: 'Pretendard';
     font-style: normal;
