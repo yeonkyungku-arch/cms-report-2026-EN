@@ -1934,10 +1934,10 @@ ol.text-subsection-content.media-group-list {
 
 /* 미디어그룹별 광고 성과 테이블의 "다음 페이지에 이어서" 문구 */
 .text-continued-performance-table {
-    position: absolute;
+    position: relative;
     left: auto;
     right: 0; /* 우측 정렬 */
-    top: auto; /* JavaScript로 동적으로 계산 */
+    top: auto;
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400; /* Regular */
