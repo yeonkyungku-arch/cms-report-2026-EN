@@ -1115,7 +1115,7 @@ ol.text-subsection-content.media-group-list {
     left: 54px; /* 2471 - 2431 = 40px */
     top: 54px; /* 1232 - 1192 = 40px */
     width: auto;
-    height: 64px;
+    height: auto;
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700;
