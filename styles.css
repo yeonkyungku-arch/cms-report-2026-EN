@@ -751,7 +751,7 @@ section.page:last-child {
 .frame-목차리스트 {
     position: absolute;
     left: 0px;
-    top: 204px; /* frame-타이틀목차 bottom (150px + 35px = 184px) + 간격 20px */
+    top: 144px; /* frame-타이틀목차 bottom (150px + 35px = 184px) + 간격 20px */
     width: 100%; /* 가로 fill */
     height: auto; /* 세로 hug */
 }
