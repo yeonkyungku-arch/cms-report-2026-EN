@@ -1909,7 +1909,11 @@
             });
 
             continuationSection.style.display = hasContent ? 'flex' : 'none';
-            const continuedNote = document.querySelector('.text-continued-next-page');
+            // 미디어 정보 첫 번째 페이지(page-performance-2, 연장 페이지 아님)의 문구만 제어
+            const mediaInfoPage = document.querySelector('.page-performance-2:not(.page-media-info-continued)');
+            const continuedNote = mediaInfoPage
+                ? mediaInfoPage.querySelector('.text-continued-next-page')
+                : document.querySelector('.text-continued-next-page');
             if (continuedNote) {
                 continuedNote.style.display = hasContent ? 'block' : 'none';
             }

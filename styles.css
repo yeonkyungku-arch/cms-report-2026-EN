@@ -1949,8 +1949,6 @@ ol.text-subsection-content.media-group-list {
     margin: 0;
     padding: 0;
     z-index: 10; /* 다른 요소 위에 표시 */
-    visibility: visible !important; /* 항상 표시 */
-    display: block !important; /* 항상 표시 */
 }
 
 /* 주석 + 다음 페이지 텍스트 좌우 정렬 컨테이너 */
