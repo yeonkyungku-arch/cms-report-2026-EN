@@ -74,6 +74,24 @@
 - 테이블 셀 outline 제거
 - 필드 값 내부 그룹 가로 정렬
 
+---
+
+## 2026-06-19 수정 사항
+
+### 목차 페이지 위치 조정
+- **`frame-타이틀목차`** (`Table of Contents` 제목): `top: 150px` → `30px` (총 120px 위로)
+- **`frame-목차리스트`** (`1. Media Group...` 리스트): `top: 204px` → `84px` (총 120px 위로)
+
+### 차트 캔버스 배경색 변경
+- 모든 `chart-canvas` CSS 배경색: `#f5f5f5` → `#ffffff`
+- Chart.js 전역 플러그인(`whiteBackground`) 추가: 차트 드로잉 영역도 흰색 배경 적용
+
+### `chart-canvas-media-group-population` 높이 변경
+- canvas 높이: `420px` → `500px`
+- 부모 컨테이너(`frame-chart-container`) 높이: `470px` → `550px`
+
+---
+
 ## 기술 스택
 - HTML5
 - CSS3
