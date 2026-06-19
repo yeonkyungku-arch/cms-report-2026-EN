@@ -1900,10 +1900,12 @@
                 return;
             }
 
-            const continuationItems = continuationSection.querySelectorAll('[data-media-info-continuation="true"]');
-            const hasContent = Array.from(continuationItems).some((item) => {
+            // 9번째 이후 미디어그룹 데이터가 실제로 존재하는지 확인
+            // field-value-item 중 템플릿 변수({{}})가 아닌 실제 값이 있는 항목이 1개 이상이어야 함
+            const fieldValueItems = continuationSection.querySelectorAll('.field-value-item');
+            const hasContent = Array.from(fieldValueItems).some((item) => {
                 const text = item.textContent.replace(/\s+/g, ' ').trim();
-                return text && !text.includes('{{');
+                return text && !text.includes('{{') && text !== '';
             });
 
             continuationSection.style.display = hasContent ? 'flex' : 'none';
