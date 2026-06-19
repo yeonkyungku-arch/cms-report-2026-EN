@@ -90,6 +90,11 @@
 - canvas 높이: `420px` → `500px`
 - 부모 컨테이너(`frame-chart-container`) 높이: `470px` → `550px`
 
+### 미디어 정보 연장 페이지(`page-media-info-continued`) 출력 조건 수정
+- **원인**: `handleMediaInfoContinuation()` 함수가 `data-media-info-continuation="true"` 속성을 탐색했으나 HTML에 해당 속성이 없어 조건이 잘못 평가됨
+- **수정**: `.field-value-item` 요소를 직접 탐색하여 템플릿 변수(`{{...}}`)가 아닌 실제 데이터가 1개 이상일 때만 연장 페이지 표시
+- **결과**: 미디어 그룹이 8개 이하일 경우 연장 페이지가 출력되지 않음, 9개 이상일 때만 출력
+
 ---
 
 ## 기술 스택
