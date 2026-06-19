@@ -719,7 +719,7 @@ section.page:last-child {
 .frame-타이틀목차 {
     position: absolute;
     left: 0px;
-    top: 90px;
+    top: 30px;
     width: 963px;
     height: 35px;
     border-left: 6px solid #B5FFB8;
@@ -751,7 +751,7 @@ section.page:last-child {
 .frame-목차리스트 {
     position: absolute;
     left: 0px;
-    top: 144px; /* frame-타이틀목차 bottom (150px + 35px = 184px) + 간격 20px */
+    top: 84px; /* frame-타이틀목차 bottom (150px + 35px = 184px) + 간격 20px */
     width: 100%; /* 가로 fill */
     height: auto; /* 세로 hug */
 }
