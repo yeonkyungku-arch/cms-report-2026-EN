@@ -2633,8 +2633,8 @@ canvas[id="chart-canvas"] {
     box-sizing: border-box !important;
     display: block !important;
     overflow: hidden !important;
-    background: #f5f5f5 !important;
-    background-color: #f5f5f5 !important;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
 }
 
 /* chart-canvas-daily 전용 스타일 */
