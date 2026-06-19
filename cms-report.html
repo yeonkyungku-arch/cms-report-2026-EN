@@ -11,6 +11,19 @@
     </style>
     <!-- Chart.js 라이브러리 -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script>
+        Chart.register({
+            id: 'whiteBackground',
+            beforeDraw: (chart) => {
+                const ctx = chart.canvas.getContext('2d');
+                ctx.save();
+                ctx.globalCompositeOperation = 'destination-over';
+                ctx.fillStyle = '#ffffff';
+                ctx.fillRect(0, 0, chart.width, chart.height);
+                ctx.restore();
+            }
+        });
+    </script>
 </head>
 <body data-kakao-app-key="{{카카오맵API키}}">
     <div class="page-wrapper">
